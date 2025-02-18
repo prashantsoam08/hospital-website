@@ -1,0 +1,53 @@
+@media screen and (max-width: 480px){
+    .wrapper{
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+        background-image: linear-gradient(#E6F6FE, white);
+    }
+    .nav-bar {
+        width: 388px;
+        height: 50px;
+        background: #E6F6FE;
+        border: none;
+        margin-left: 90px;
+    }
+    .login-btn{
+        visibility: hidden;
+    }
+
+    .nav-op {
+        visibility: hidden;
+    }
+
+    .nav-img {
+        visibility: hidden;
+    }
+    .nav-logo{
+        margin-right: -20px;
+    }
+
+    .nav-btn {
+        visibility: hidden;
+    }
+
+    .nav-opt {
+        height: 50px;
+        width: 48px;
+        margin-left: -70px;
+
+    }
+
+    .login-img{
+        visibility: hidden;
+    }
+
+    .login-sec{
+        margin-left: 130px;
+        justify-content: center;
+        align-items: center;
+    }
+}

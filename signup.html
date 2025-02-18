@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/output.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+    <link rel="stylesheet" href="reponsive.css">
+</head>
+
+<body>
+
+    <div class="wrapper  relative flex flex-col justify-center items-center">
+        <!-- nav-bar  -->
+        <div class="navbar   rounded-md bg-[#E6F6FE] 
+           w-[1280px] mt-10  h-[90px] flex justify-between items-center">
+            <div class="logo">
+                <img src="./assets/logo.png" alt="logo" class=" ml-10">
+            </div>
+            <ul class="nav-list flex gap-10">
+                <li class="font-[500] text-[16px] "><a href="index.html">Home</a></li>
+                <li class="font-[500] text-[16px] "><a href="service.html">Services</a></li>
+                <li class="font-[500] text-[16px] "><a href="blogs.html">Blogs</a></li>
+                <li class="font-[500] text-[16px] "><a href="about.html">About</a></li>
+                <li class="font-[500] text-[16px] "><a href="contact.html">Contact</a></li>
+            </ul>
+            <img class="lg:hidden ml-[20px]" src="./assets/Button 3.png" alt="">
+            <div class="profile-img flex">
+                <img src="./assets/dp.png" alt="" class="rounded-full h-[50px] w-[50px] mr-6">
+                <button class="text-white bg-[#1376F8] px-5 py-3 rounded-[10px] mr-12 ">Book Now</button>
+            </div>
+        </div>
+
+
+        <!-- sign up-section  -->
+        <div class="flex lg:flex-row flex-col gap-[50px] mt-40 ">
+            <!-- left-section  -->
+            <div class=" absolute left-0  rounded-[10px] ">
+                <img style="border-radius: 10px; " class="login-img" src="assets/Rectangle 687.png" alt="">
+            </div>
+
+            <!-- right-section  -->
+            <div class="right-signup ml-[500px] ">
+                <div class="flex flex-col mt-[100px] gap-5">
+                    <h1 class="text-[42px] font-semibold">Create An account</h1>
+                    <p class="text-[16px] font-normal">Discover a better way of spandings with Uifry.</p>
+                    <div class="border-2 border-black rounded-md ">
+                        <div class="flex items-center gap-3 px-[120px] py-[20px]">
+                            <i class="fa-brands fa-google"></i>
+                            <div class="w-[200px] text-[#011632]"> Log in with Google</div>
+
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-1.5">
+                        <span class="border-[0.5px] border-[#011632] opacity-30 w-[192px] h-[0.5px]"></span> <span
+                            class="items-center">Or</span> <span
+                            class="border-[1px] border-[#011632] opacity-30 w-[192px]"></span>
+                    </div>
+                    <div>
+                        <div class="fullname">
+                            <div>
+                                <div
+                                    class=" flex items-center py-[5px] px-[200px] border-[#9C9C9C] border rounded-md pl-5 text-[#9C9C9C] mt-7 ">
+                                    <i class="fa-regular fa-user"></i>
+                                    <input type="text" placeholder="Type your name"
+                                        class="input-s focus:outline-hidden rounded-[10px] text-[20px] w-[232px] py-[10px] bg-white px-[10px] font-[600] opacity-50">
+                                </div>
+                                <div
+                                    class=" flex items-center py-[5px] px-[200px] border-[#9C9C9C] border rounded-md pl-5 text-[#9C9C9C] mt-7 ">
+                                    <i class="fa-regular fa-envelope"></i>
+                                    <input type="text" placeholder="Enter your Email"
+                                        class="input-s  focus:outline-hidden rounded-[10px] text-[20px] w-[232px] py-[10px] bg-white px-[10px] font-[600] opacity-50">
+                                </div>
+                                <div
+                                    class=" flex items-center py-[5px] px-[200px] border-[#9C9C9C] border rounded-md pl-5 text-[#9C9C9C] mt-7 ">
+                                    <i class="fa-solid fa-lock"></i>
+                                    <input type="text" placeholder="Password"
+                                        class="input-s  focus:outline-hidden rounded-[10px] text-[20px] w-[232px] py-[10px] bg-white px-[10px] font-[600] opacity-50">
+                                </div>
+                            </div>
+
+                            <div>
+                                <div>
+                                    <div class="pt-3.5">
+                                        <input type="checkbox" id="horns" name="Remember me" />
+                                        <label for="horns">Remember Me</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="login-btn pt-4">
+                            <button class="h-[45px] w-full  rounded-[10px] bg-[#1376F8]
+                    text-white text-[16px] hover:border-[#1376F8]
+                    hover:border transition duration-300">Login</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

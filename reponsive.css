@@ -1,0 +1,302 @@
+@media screen and (max-width: 480px) {
+    .wrapper {
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-bar {
+        width: 388px;
+        height: 50px;
+        background: #E6F6FE;
+        border: none;
+    }
+
+    .nav-op {
+        visibility: hidden;
+    }
+
+    .nav-img {
+        visibility: hidden;
+    }
+    .nav-logo{
+        margin-right: -20px;
+    }
+
+    .nav-btn {
+        visibility: hidden;
+    }
+
+    .nav-opt {
+        height: 50px;
+        width: 48px;
+        margin-left: -70px;
+
+    }
+
+    .service-section {
+        width: 388px;
+        align-items: flex-start;
+    }
+
+    .service-h {
+        font-size: 42px;
+        font-weight: 600;
+        justify-content: flex-start;
+    }
+
+    .service-img {
+        width: 160px;
+        margin-right: 100px;
+
+
+    }
+
+    .service-p {
+        width: 388px;
+        height: 112px;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: left;
+
+    }
+
+    .appointment {
+        flex-direction: column;
+        height: 940px;
+        align-items: center;
+    }
+
+    .appointment-left-section {
+        align-items: center;
+    }
+
+    .appointment-heading {
+        font-size: 36px;
+        line-height: 45px;
+        width: 388px;
+        height: 180px;
+        text-align: left;
+    }
+
+    .appointment-p {
+        height: 112px;
+        width: 388px;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: left;
+    }
+
+    .appointment-btn {
+        margin-right: 230px;
+    }
+
+    .submit-form {
+        width: 388px;
+        height: 397px;
+    }
+
+    .video-heading {
+        width: 388px;
+        height: 135px;
+        font-size: 36px;
+        line-height: 45px;
+        text-align: left;
+    }
+
+    .video-p {
+        width: 388px;
+        height: 112px;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: left;
+    }
+
+    iframe {
+        width: 388px;
+        height: 402px;
+        border-radius: 20px;
+    }
+
+    .meet-section {
+        width: 428px;
+        height: 1250px;
+    }
+
+    .meet-heading {
+        width: 360px;
+        height: 45px;
+        font-size: 36px;
+        font-weight: 600;
+        text-align: left;
+        margin-right: 25px;
+    }
+
+    .meet-p {
+        width: 388px;
+        height: 112px;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: left;
+        margin-top: 10px;
+    }
+
+    .meet-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 388px;
+    }
+
+    .card {
+        width: 388px;
+        height: 390px;
+        margin-left: 70px;
+    }
+
+    .card-hide {
+        visibility: hidden;
+    }
+
+    .meet-slide-btn {
+        visibility: hidden;
+    }
+
+    .meet-btn {
+        visibility: visible;
+    }
+
+    .heading-question {
+        width: 388px;
+        height: 90px;
+        font-size: 36px;
+        line-height: 45px;
+        text-align: left;
+        margin-left: 40px;
+    }
+
+    .question-img {
+        visibility: hidden;
+    }
+
+    .question-p {
+        width: 388px;
+        height: 112px;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: left;
+        padding-bottom: 10px;
+    }
+
+    .question {
+        width: 388px;
+        height: 68px;
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    .dental-card {
+        width: 428px;
+        height: 831px;
+        flex-direction: column;
+        padding-left: 20px;
+    }
+
+    .dental-h {
+        width: 388px;
+        height: 135px;
+        font-size: 36px;
+        line-height: 45px;
+
+    }
+
+    .dental-p {
+        width: 388px;
+        height: 112px;
+        font-size: 18px;
+        line-height: 27px;
+
+    }
+
+    .dental-img {
+        width: 388px;
+        height: 292px;
+    }
+
+    footer {
+        width: 428px;
+        height: 298px;
+        margin-left: 20px;
+    }
+    .footer-margin{
+        padding-top: 80px;
+        background: white;
+    }
+
+    .main-footer {
+        padding: 0%;
+        gap: 15px;
+    }
+
+    .footer-list {
+        visibility: hidden;
+    }
+
+    .footer-opt {
+        height: 46px;
+        width: 50px;
+        margin-right: 150px;
+    }
+
+    .footer-col1 {
+        width: 488px;
+        height: 53px;
+        margin-left: 20px;
+    }
+
+    .footer-img {
+        width: 134px;
+        height: 43px;
+    }
+
+    .footer-text {
+        height: 28px;
+        width: 388px;
+        font-size: 18px;
+        font-weight: 500;
+        color: #3C4959;
+        text-align: center;
+    }
+
+
+    .footer-col2 {
+        border: none;
+
+    }
+
+    .flex-col3 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 150px;
+        height: 78px;
+        gap: 5px;
+        margin-left: 10px;
+        padding-bottom: 100px;
+    }
+
+    .footer-col3-a {
+        width: 108px;
+        height: 28px;
+        margin-left: -40px;
+
+    }
+
+
+
+    .footer-col3-hide {
+        visibility: hidden;
+    }
+}

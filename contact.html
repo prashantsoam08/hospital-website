@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/output.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+    <link rel="stylesheet" href="reponsive.css">
+</head>
+
+<body class="bg-linear-to-t to-[#E6F6FE] from-white">
+    <div class="wrapper  flex flex-col justify-center items-center">
+        <div class="navbar   rounded-md bg-[white] 
+            w-[1280px] mt-10  h-[90px] flex justify-between items-center">
+            <div class="logo">
+                <img src="./assets/logo.png" alt="logo" class=" ml-10">
+            </div>
+            <ul class="nav-list flex gap-10">
+                <li class="font-[500] text-[16px] "><a href="index.html">Home</a></li>
+                <li class="font-[500] text-[16px] "><a href="service.html">Services</a></li>
+                <li class="font-[500] text-[16px] "><a href="blogs.html">Blogs</a></li>
+                <li class="font-[500] text-[16px] "><a href="about.html">About</a></li>
+                <li class="font-[500] text-[16px] "><a href="contact.html">Contact</a></li>
+            </ul>
+            <img class="lg:hidden ml-[20px]" src="./assets/Button 3.png" alt="">
+            <div class="profile-img flex">
+                <img src="./assets/dp.png" alt="" class="rounded-full h-[50px] w-[50px] mr-6">
+                <button class="text-white bg-[#1376F8] px-5 py-3 rounded-[10px] mr-12 ">Book Now</button>
+            </div>
+        </div>
+
+        <div class="text-center mt-[30px] text-[62px] text-[#011632] font-[700]">Get In Touch</div>
+        <div class="text-center lg:w-[500px] w-[300px] font-[400]  text-[#3C4959]">Book an Appointment to treat your
+            teeth right now..</div>
+
+
+        <!-- location and contact card -->
+        <div class="flex lg:flex-row flex-col-reverse mt-[80px] gap-12">
+            <!-- left section -->
+            <div class="flex flex-col gap-[30px]">
+                <div class="lg:border-[3px] border-[#25B4F8] rounded-[10px]">
+                    <iframe class="location drop-shadow-lg rounded-[10px]"
+                        src="https://www.google.com/maps/embed?pb=YourMapURL" width="500" height="330" style="border:0;"
+                        allowfullscreen="" loading="lazy">
+                    </iframe>
+                </div>
+
+                <div class="flex info rounded-[10px] drop-shadow-md items-center p-[20px] bg-white gap-5">
+                    <div class=" ">
+                        <i class="bg-[#1376F8] p-[20px] text-[24px] text-[white] rounded-full  fa-solid fa-clock"></i>
+                    </div>
+
+                    <div>
+                        <div class="text-[20px] font-[600] text-[#011632]">Office Timing</div>
+                        <p class="text-[16px] text-[#3C4959] w-[300px] font-[300]">Monday - Saturday (9:00am to 5pm)
+                            Sunday (Closed)</p>
+                    </div>
+                </div>
+
+                <div class="flex rounded-[10px] info drop-shadow-md items-center p-[20px] bg-white gap-5">
+                    <div class=" ">
+                        <i class="bg-[#1376F8] p-[20px] text-[24px] text-[white] rounded-full  fa-solid fa-clock"></i>
+                    </div>
+
+                    <div>
+                        <div class="text-[20px]  font-[600] text-[#011632]">Email Address</div>
+                        <p class="text-[16px] text-[#3C4959] w-[300px] font-[300]">Smile01@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="flex drop-shadow-md info rounded-[10px] items-center p-[20px] bg-white gap-5">
+                    <div class=" ">
+                        <i class="bg-[#1376F8] p-[20px] text-[24px] text-[white] rounded-full  fa-solid fa-clock"></i>
+                    </div>
+
+                    <div>
+                        <div class="text-[20px] font-[600] text-[#011632]">Phone Number</div>
+                        <p class="text-[16px] text-[#3C4959] w-[300px] font-[300]">0900-78601</p>
+                    </div>
+                </div>
+
+                <div class="flex drop-shadow-lg info
+                     rounded-[10px] items-center p-[20px] bg-white gap-5">
+                    <div class=" ">
+                        <i class="bg-[#1376F8] p-[20px] text-[24px] text-[white] rounded-full  fa-solid fa-clock"></i>
+                    </div>
+
+                    <div>
+                        <div class="text-[20px] font-[600] text-[#011632]">Live chat</div>
+                        <p class="text-[16px] text-[#3C4959] w-[300px] font-[300]">+1-2064512559</p>
+                    </div>
+                </div>
+            </div>
+            <!-- right section -->
+            <div class="border-[1px] flex flex-col items-center border-[#25B4F8] p-[50px] rounded-[10px]">
+                <div class="flex gap-10">
+                    <div class="flex flex-col ">
+                        <label for="first-name" class="font-[400] text-[20px] text-[#3c4959]">First name</label>
+                        <div class="mt-2 border flex justify-between  border-[#CECECE]  rounded-[10px]">
+                            <input type="text" placeholder="First name"
+                                class=" focus:outline-hidden rounded-[10px] text-[20px] w-[232px] py-[10px] bg-white px-[10px] font-[600] opacity-50">
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col ">
+                        <label for="last-name" class="font-[400] text-[20px] text-[#3c4959]">Last name</label>
+                        <div class="mt-2 border flex justify-between  border-[#CECECE]  rounded-[10px]">
+                            <input type="text" placeholder="Last name"
+                                class=" focus:outline-hidden rounded-[10px] text-[20px] w-[232px] py-[10px] bg-white px-[10px] font-[600] opacity-50">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex mt-5 flex-col ">
+                        <label for="email" class="font-[400] text-[20px] text-[#3c4959]">Email</label>
+                        <div class="mt-2 border flex justify-between  border-[#CECECE]  rounded-[10px]">
+                            <input type="text" placeholder="you@company.com"
+                                class=" focus:outline-hidden rounded-[10px] text-[20px] w-[510px] py-[10px] bg-white px-[10px] font-[600] opacity-50">
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="flex mt-5 flex-col ">
+                        <label for="email" class="font-[400] text-[20px] text-[#3c4959]">Phone number</label>
+                        <div class="mt-2 border flex justify-between  border-[#CECECE]  rounded-[10px]">
+                            <input type="text" placeholder="you@company.com"
+                                class=" focus:outline-hidden rounded-[10px] text-[20px] w-[510px] py-[10px] bg-white px-[10px] font-[600] opacity-50">
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="flex mt-5 flex-col ">
+                        <label for="email" class="font-[400] text-[20px] text-[#3c4959]">Select date</label>
+                        <div class="mt-2 border flex justify-between  border-[#CECECE]  rounded-[10px]">
+                            <input type="text" placeholder="you@company.com"
+                                class=" focus:outline-hidden rounded-[10px] text-[20px] w-[510px] py-[10px] bg-white px-[10px] font-[600] opacity-50">
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="flex mt-5 flex-col ">
+                        <label for="email" class="font-[400] text-[20px] text-[#3c4959]">Message</label>
+                        <div class="mt-2 border flex justify-between  border-[#CECECE]  rounded-[10px]">
+
+                            <textarea name="" id=""
+                                class=" focus:outline-hidden rounded-[10px] text-[20px] h-[185px] w-[510px] py-[10px] bg-white px-[10px] font-[600] opacity-50">
+
+                               </textarea>
+
+                        </div>
+                    </div>
+                </div>
+
+                <button class="text-white  w-[230px]  bg-[#1376F8] px-7 py-3 rounded-[10px] mt-12">Book an
+                    appointment</button>
+
+
+
+            </div>
+        </div>
+        <!-- ask section -->
+        <div class="flex flex-col items-center justify-center mt-[100px] gap-4pt-20">
+            <div>
+                <div class="heading font-semibold text-[42px] text-center font-[#011632]">
+                    Frequently Ask Question
+                </div>
+                <div>
+                    <img src="assets/question-border.png" alt="" class="pl-12 pr-12">
+                </div>
+            </div>
+            <div class="p font-medium text-[18px] font-[#011632] text-center w-[455px]">
+                We use only the best quality materials on the market in order to provide the best products to our
+                patients
+            </div>
+            <div class="flex flex-col items-center justify-between gap-1 pt-14">
+                <!-- 1st -->
+                <div class="visible flex justify-between pl-6 font-semibold pt-1.5 text-[18px] h-[60px] w-[576px]  "
+                    style="border-bottom: 2px solid #CFCFCF;">
+                    <ul class="list-disc">
+                        <li class="pl-1.5">
+                            Can I see who reads my email campaigns?
+                        </li>
+                    </ul>
+                    <div class="pl-11"><i class="fa-solid fa-circle-plus"></i></div>
+                </div>
+                <div class="non-visible hidden w-[630px] bg-[#1376F8] text-white p-6 rounded-[10px]">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Id at neque ratione unde a aliquam earum
+                    nesciunt soluta dolorem distinctio ex accusantium, dicta nostrum quisquam. Maxime repellat dolore
+                    dolores nemo.
+                </div>
+                <!-- 2nd  -->
+                <div class="visible flex justify-between pl-6 font-semibold pt-1.5 text-[18px] h-[60px] mt-3 w-[576px]"
+                    style="border-bottom: 2px solid #CFCFCF;">
+                    <ul class="list-disc">
+                        <li class="pl-1.5">
+                            Do you offer non-profit discounf?
+                        </li>
+                    </ul>
+                    <div class="pl-11"><i class="fa-solid fa-circle-plus"></i></div>
+                </div>
+                <div class="non-visible hidden w-[500px] bg-[#1376F8] text-white p-6 rounded-[10px]">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Id at neque ratione unde a aliquam earum
+                    nesciunt soluta dolorem distinctio ex accusantium, dicta nostrum quisquam. Maxime repellat dolore
+                    dolores nemo.
+                </div>
+                <!-- 3rd  -->
+                <div class="visible flex justify-between pl-6 font-semibold pt-1.5 text-[18px] h-[60px] mt-3 w-[576px]"
+                    style="border-bottom: 2px solid #CFCFCF;">
+                    <ul class="list-disc">
+                        <li class="pl-1.5">
+                            can I see who can reads my emails campaigns?
+                        </li>
+                    </ul>
+                    <div class="pl-11"><i class="fa-solid fa-circle-plus"></i></div>
+                </div>
+                <div class="non-visible hidden w-[500px] bg-[#1376F8] text-white p-6 rounded-[10px]">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Id at neque ratione unde a aliquam earum
+                    nesciunt soluta dolorem distinctio ex accusantium, dicta nostrum quisquam. Maxime repellat dolore
+                    dolores nemo.
+                </div>
+                <!-- 4th -->
+                <div class="visible flex justify-between pl-6 font-semibold pt-1.5 text-[18px] h-[60px] mt-3 w-[576px]">
+                    <ul class="list-disc">
+                        <li class="pl-1.5">
+                            Can I see who can read my email campaigns
+                        </li>
+                    </ul>
+                    <div class="pl-11"><i class="fa-solid fa-circle-plus"></i></div>
+                </div>
+                <div class="non-visible hidden w-[500px] bg-[#1376F8] text-white p-6 rounded-[10px]">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Id at neque ratione unde a aliquam earum
+                    nesciunt soluta dolorem distinctio ex accusantium, dicta nostrum quisquam. Maxime repellat dolore
+                    dolores nemo.
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-margin">
+            <div class="main-footer flex flex-col lg:gap-11 pl-28 pr-28 pt-28 pb-5 bg-white">
+                <div class="footer-col1 flex justify-between">
+                    <div class="footer-img flex gap-2">
+                        <img class="" src="assets/nav-logo.png" alt="">
+                        <img class="pt-1.5" src="assets/logo.png" alt="">
+                    </div>
+                    <div class="flex">
+                        <ul class=" footer-list flex lg:gap-8 text-[#3C4959]">
+                            <li class="footer-list">Home</li>
+                            <li class="footer-list">Serivce</li>
+                            <li class="footer-list">Blogs</li>
+                            <li class="footer-list">About</li>
+                            <li class="footer-list">Contact</li>
+                        </ul>
+                        <div>
+                            <img class="footer-opt lg:hidden h-[46px] w-[50px]" src="assets/footer-opt.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-col2 h-[0px] border-[#011632] border-2">
+
+                </div>
+                <div class="lg:hidden footer-text">
+                    All our PRO level features at your fingertips
+                </div>
+
+                <div class="flex-col3 flex lg:justify-between">
+                    <div class="">
+                        <a href="#" class="footer-col3-hide">All rights reserved ® uifry.com | Terms and conditions
+                            apply!</a>
+                        <a href="#" class="footer-col3-a lg:hidden">Follow us on</a>
+                    </div>
+                    <div>
+                        <ul class="flex lg:gap-7">
+                            <li><img src="assets/facebook.png" alt=""></li>
+                            <li><img src="assets/instagram.png" alt=""></li>
+                            <li><img src="assets/youtube.png" alt=""></li>
+                            <li><img src="assets/linkedin.png" alt=""></li>
+                            <li><img src="assets/twitter.png" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

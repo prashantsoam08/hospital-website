@@ -1,0 +1,286 @@
+@media screen and (max-width: 480px) {
+    .wrapper{
+        overflow: hidden;
+        
+    }
+
+    .nav-bar {
+        width: 388px;
+        height: 50px;
+        background: #E6F6FE;
+        border: none;
+    }
+
+    .nav-op {
+        visibility: hidden;
+    }
+
+    .nav-img {
+        visibility: hidden;
+    }
+    .nav-logo{
+        margin-right: -20px;
+    }
+
+    .nav-btn {
+        visibility: hidden;
+    }
+
+    .nav-opt {
+        height: 50px;
+        width: 48px;
+        margin-left: -70px;
+
+    }
+
+    .about-section{
+        visibility: hidden;
+    }
+
+    .mission-main{
+        flex-direction: column;
+        margin-left: 80px;
+    }
+    .mission-text{
+        height: 966px;
+        width: 388px;
+    }
+    .mission-h{
+        height: 53px;
+        width: 241px;
+        font-size: 42px;
+        font-weight:600;
+        color: #011632;
+    }
+    .mission-p{
+        height: 308px;
+        width: 388px;
+        font-size: 18px;
+        font-weight: 400;
+        color: #3C4959;
+        text-align:left;
+    }
+    .mission-h2{
+        height: 58px;
+        width: 388px;
+        font-size: 24px;
+        font-weight: 500;
+        color: #011632;
+    }
+    .mission-p2{
+        height: 488px;
+        width: 388px;
+        font-size: 18px;
+        font-weight: 400;
+        color: #3C4959;
+        text-align:left;   
+    }
+    .mission-img{
+        height:517;
+        width: 388px;
+        align-items: flex-start;
+    }
+
+    .meet-main{
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    .meet-h{
+        height: 16px;
+        width: 363px;
+        font-size: 42px;
+        font-weight: 600;
+        color: #011632;
+        line-height: 52px;
+        text-align: left;
+    }
+    .meet-img{
+        visibility: hidden;
+    }
+    .meet-p{
+        width: 380px;
+        height: 112px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        color: #3C4959;
+        text-align: left;
+        margin-top: 80px;
+    }
+
+    .card-main{
+        width: 388px;
+        height: 964px;
+        flex-direction: column;
+        background: #E6F6FE;
+    }
+    .card-image{
+        height: 370px;
+        width: 388px;
+    }
+    .card-text{
+        width: 388px;
+        height: 619px;
+        align-items: flex-start;
+    }
+    .card-h{
+        display: flex;
+        flex-direction: column;
+    }
+    .card-p{
+        height:336px;
+        width: 342px;
+        font-size: 18px;
+        line-height: 27px;
+        color: #3C4959;
+    }
+    .card-btn{
+        height: 55px;
+        width: 227px;
+        margin-left: 60px;
+    }
+
+    .technologu-main{
+        flex-direction: column;
+    }
+    .tech-col1{
+        width: 388px;
+        height: 148px;
+
+    }
+    .tech-col2{
+        flex-direction: column;
+    }
+    .tech-img{
+        width: 388px;
+        height: 362px;
+    }
+    .tech-text{
+        width: 388px;
+        height: 554px;
+    }
+    .tech-text-h{
+        width: 287px;
+        height: 58px;
+        text-align: left;
+    }
+
+    .cards-main{
+        flex-direction: column;
+        width: 428px;
+        height: 484px;
+        align-items: center;   
+    }
+    .card-one{
+        margin-top:80px;
+    }
+    .card2{
+        visibility: hidden;
+    }
+    .card3{
+        visibility: hidden;
+    }
+    
+
+
+
+
+
+    .video-heading {
+        width: 388px;
+        height: 135px;
+        font-size: 36px;
+        line-height: 45px;
+        text-align: left;
+    }
+
+    .video-p {
+        width: 388px;
+        height: 112px;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: left;
+    }
+
+    iframe {
+        width: 388px;
+        height: 402px;
+        border-radius: 20px;
+    }
+
+    footer {
+        width: 428px;
+        height: 298px;
+        margin-left: 20px;
+    }
+    .footer-margin{
+        padding-top: 80px;
+        background: white;
+    }
+
+    .main-footer {
+        padding: 0%;
+        gap: 15px;
+    }
+
+    .footer-list {
+        visibility: hidden;
+    }
+
+    .footer-opt {
+        height: 46px;
+        width: 50px;
+        margin-right: 150px;
+    }
+
+    .footer-col1 {
+        width: 488px;
+        height: 53px;
+        margin-left: 20px;
+    }
+
+    .footer-img {
+        width: 134px;
+        height: 43px;
+    }
+
+    .footer-text {
+        height: 28px;
+        width: 388px;
+        font-size: 18px;
+        font-weight: 500;
+        color: #3C4959;
+        text-align: center;
+    }
+
+
+    .footer-col2 {
+        border: none;
+
+    }
+
+    .flex-col3 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 150px;
+        height: 78px;
+        gap: 5px;
+        margin-left: 10px;
+        padding-bottom: 100px;
+    }
+
+    .footer-col3-a {
+        width: 108px;
+        height: 28px;
+        margin-left: -40px;
+
+    }
+
+
+
+    .footer-col3-hide {
+        visibility: hidden;
+    }
+
+}

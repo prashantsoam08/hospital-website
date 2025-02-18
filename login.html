@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/output.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="stylesheet" href="login.css">
+
+</head>
+
+<body>
+    <div class="flex flex-col justify-center items-center">
+        <!-- nav-bar  -->
+        <div class="wrapper flex flex-col items-center">
+            <nav class="nav-bar h-[90px] w-[1280px] flex lg:justify-between bg-[#E6F6FE] mt-10 rounded-[10px]
+                items-center border border-white">
+                    <div class="nav-logo">
+                        <img src="assets/nav-logo.png" alt="" class="ml-8 ">
+                    </div>
+                    <div>
+                        <ul class="nav-op lg:ml-52 flex gap-9 text-[16px] font-500 font-medium">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="service.html" class="">Service</a></li>
+                            <li><a href="blog.html">Blogs</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="">Contact</a></li>
+                        </ul>
+                    </div>
+                    <img class="nav-opt h-[0px] w-[0px] " src="assets/nav-opt.png" alt="">
+                    <div class="flex ">
+                        <h2 class="login-btn mt-4 lg:h-[25px] lg:w-[43px] text-[16px] font-semibold text-[#011632] "><a href="#">Login</a></h2>
+    
+                        <button class="nav-img nav-btn h-14 w-36 bg-blue-700 rounded-md lg:ml-6 lg:mr-10 
+                        text-white
+                        hover:border-blue-500 hover:bg-white hover:text-blue-700
+                        hover:text-[18px] hover:border transition duration-300">Book Now</button>
+    
+                    </div>
+                </nav>
+
+    <!-- login-section  -->
+    <div class="flex justify-between pt-10">
+        <!-- left-section  -->
+        <div>
+            <img class="login-img h-[860px] w-[710px]" src="assets/login.png" alt="">
+        </div>
+
+        <!-- right-section  -->
+        <div class="login-sec h-[571px] w-[416px] mt-28 mr-48 ml-52">
+            <div class="login-sec flex flex-col gap-5">
+                <h1 class="text-[42px] font-semibold">Welcome Back</h1>
+                <p class="text-[16px] font-normal">Discover a better of spanding with uifry</p>
+                <div class="border-2 border-black rounded-md h-[60px] w-[414px] ">
+                    <div class="px-28 py-4 flex gap-2">
+                        <span><i class="fa-brands fa-google"></i></span><span class="text-[#011632]">Log in with
+                            Google</span>
+                    </div>
+                </div>
+                <div class="flex items-baseline gap-1.5">
+                    <span class="border-[0.5px] border-[#011632] w-[188.27px] h-[0.5px]"></span> <span
+                        class="pt-1.5 items-center">Or</span> <span
+                        class="border-[1px] border-[#011632] w-[188.27px]"></span>
+                </div>
+                <div>
+                    <div class="fullname">
+                        <ul>
+                            <li>
+                                <div
+                                    class="h-[60px] w-[414px] border-[#9C9C9C] border rounded-md text-[#9C9C9C] mt-7 py-4 pl-8 ">
+                                    <span><i class="fa-solid fa-envelope"></i></span> <span class="ml-2"><input
+                                            class="focus:outline-hidden" type="email"
+                                            placeholder="Enter your Email"></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div
+                                    class="h-[60px] w-[414px] border-[#9C9C9C] border rounded-md text-[#9C9C9C] mt-7 py-4 pl-8 ">
+                                    <span><i class="fa-solid fa-lock"></i></span> <span class="ml-2"><input
+                                            class="focus:outline-hidden w-[350px]" type="password"
+                                            placeholder="Password"></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <div class="flex justify-between mt-3 ">
+                                        <div>
+                                            <input type="checkbox" id="" name="Remember me" />
+                                            <label for="horns">Remember Me</label>
+                                        </div>
+
+                                        <div>
+                                            <a href="#">Forgot Password?</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-login-btn pt-4">
+                        <button class="h-[45px] w-full  rounded-[10px] bg-[#1376F8]
+                text-white text-[16px] hover:border-[#1376F8]
+                hover:border transition duration-300">Login</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        </div>
+</body>
+
+</html>
